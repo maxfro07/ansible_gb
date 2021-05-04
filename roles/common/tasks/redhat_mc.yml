@@ -1,0 +1,5 @@
+# roles/example/tasks/redhat.yml
+- name: Install mc
+  ansible.builtin.yum:
+    name: "mc"
+    state: present

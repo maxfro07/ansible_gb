@@ -1,0 +1,5 @@
+# roles/example/tasks/debian.yml
+- name: Install mc
+  ansible.builtin.apt:
+    name: "mc"
+    state: present

@@ -1,0 +1,5 @@
+# roles/example/tasks/debian.yml
+- name: Install vim
+  ansible.builtin.apt:
+    name: "vim"
+    state: present

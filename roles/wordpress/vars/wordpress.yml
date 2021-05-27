@@ -1,9 +1,6 @@
 ---
 server_name: "localhost"
 nginx_remove_default_vhost: true
-mysql_db: "wordpress" 
-mysql_user: "wordpress"
-mysql_password: "1234WoRd"
 
 nginx_vhosts:
 #  - listen: "80"

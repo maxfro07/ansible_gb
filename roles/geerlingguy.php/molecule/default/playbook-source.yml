@@ -4,7 +4,7 @@
   become: true
 
   vars:
-    php_enable_webserver: false
+    php_enable_webserver: true
     php_install_from_source: true
     php_source_clone_dir: /root/php-src
     php_source_make_command: "make --jobs=2"
